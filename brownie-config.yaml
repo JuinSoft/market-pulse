@@ -1,0 +1,33 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.9.3
+  - paulrberg/prb-math@4.0.1
+  - snekmate/snekmate@0.0.1
+
+compiler:
+  vyper:
+    version: 0.3.10
+    optimizations:
+      - gas
+
+networks:
+  default: development
+  development:
+    verify: False
+  polygon-main:
+    verify: True
+    explorer: https://api.polygonscan.com/api
+  polygon-mumbai:
+    verify: True
+    explorer: https://api-testnet.polygonscan.com/api
+
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+autofetch_sources: True
+
+reports:
+  exclude_paths:
+    - contracts/mocks/**
+    - contracts/interfaces/** 

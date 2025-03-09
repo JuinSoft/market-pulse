@@ -1,0 +1,34 @@
+{
+    "event_monitor": {
+        "web3_provider": "https://polygon-rpc.com",
+        "quickswap_router_address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+        "usdc_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "min_swap_value_usd": 100000.0,
+        "min_wallet_value_usd": 1000000.0,
+        "trend_threshold": 10,
+        "polling_interval": 15
+    },
+    "ai_predictor": {
+        "openai_api_key": "${OPENAI_API_KEY}",
+        "impact_threshold": 0.7,
+        "historical_data_path": "data/historical_data.csv",
+        "token_metadata_path": "data/token_metadata.json",
+        "cache_ttl": 3600
+    },
+    "token_deployer": {
+        "web3_provider": "https://polygon-rpc.com",
+        "factory_address": "${FACTORY_ADDRESS}",
+        "private_key": "${PRIVATE_KEY}",
+        "gas_price_multiplier": 1.1,
+        "max_retries": 3
+    },
+    "liquidity_manager": {
+        "web3_provider": "https://polygon-rpc.com",
+        "router_address": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+        "usdc_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "private_key": "${PRIVATE_KEY}",
+        "gas_price_multiplier": 1.1,
+        "check_interval": 3600,
+        "min_rebalance_threshold": 500
+    }
+} 

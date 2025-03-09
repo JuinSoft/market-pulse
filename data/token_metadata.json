@@ -1,0 +1,62 @@
+{
+    "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
+        "name": "Polygon",
+        "symbol": "MATIC",
+        "decimals": 18,
+        "description": "Polygon (MATIC) is a Layer 2 scaling solution for Ethereum"
+    },
+    "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+        "name": "USD Coin (PoS)",
+        "symbol": "USDC",
+        "decimals": 6,
+        "description": "USD Coin (USDC) is a stablecoin that is pegged to the U.S. dollar"
+    },
+    "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6": {
+        "name": "Wrapped BTC (PoS)",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "description": "Wrapped Bitcoin (WBTC) is an ERC-20 token backed 1:1 with Bitcoin"
+    },
+    "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "decimals": 18,
+        "description": "Wrapped Ether (WETH) is an ERC-20 token that represents Ether"
+    },
+    "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b": {
+        "name": "Avalanche Token (AVAX)",
+        "symbol": "AVAX",
+        "decimals": 18,
+        "description": "AVAX is the native token of the Avalanche blockchain"
+    },
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+        "name": "Tether USD (PoS)",
+        "symbol": "USDT",
+        "decimals": 6,
+        "description": "Tether USD (USDT) is a stablecoin that is pegged to the U.S. dollar"
+    },
+    "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270": {
+        "name": "Wrapped Matic",
+        "symbol": "WMATIC",
+        "decimals": 18,
+        "description": "Wrapped Matic (WMATIC) is an ERC-20 token that represents MATIC"
+    },
+    "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39": {
+        "name": "ChainLink Token",
+        "symbol": "LINK",
+        "decimals": 18,
+        "description": "Chainlink (LINK) is a decentralized oracle network"
+    },
+    "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a": {
+        "name": "SushiToken (PoS)",
+        "symbol": "SUSHI",
+        "decimals": 18,
+        "description": "Sushi (SUSHI) is a token for the SushiSwap decentralized exchange"
+    },
+    "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
+        "name": "Aave (PoS)",
+        "symbol": "AAVE",
+        "decimals": 18,
+        "description": "Aave (AAVE) is a token for the Aave lending protocol"
+    }
+} 
